@@ -18,9 +18,6 @@ public abstract class Bag {
     private int capacity;
     private String[] contents;
 
-
-
-
     /*
      * TODO: Create a constructor that takes two arguments:
      *       - a String representing the Bag's colour
@@ -36,8 +33,6 @@ public abstract class Bag {
         this.numberOfContents = 0;
         this.contents = new String[capacity];
     }
-
-
 
     /*
      * TODO: Create a variety of 'getter' functions.
@@ -68,9 +63,6 @@ public abstract class Bag {
         this.color = color;
     }
 
-
-
-
     /*
      * TODO: Create a method called addItem that takes in a String
      *       representing an item in the Bag.
@@ -91,8 +83,6 @@ public abstract class Bag {
             return false;
         }
     }
-
-
 
     /**
      * TODO: Create a method called popItem that returns a String.
